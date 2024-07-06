@@ -15,9 +15,11 @@ It's recommended to use Gunicorn for the Flask server:
 `gunicorn -w 4 "api:app" --bind 0.0.0.0:{port}`
 
 Next, create a .env file with the following variables:
-- SERVER_IP = 'server_ip'
-- SERVER_PORT = 'server_port'
-- CURRENCY = 'currency_id'
+```
+SERVER_IP='server_ip'
+SERVER_PORT='server_port'
+CURRENCY='currency_id'
+```
 
 ## List of available currencies
 
